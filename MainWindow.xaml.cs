@@ -13,7 +13,7 @@ namespace RanNameGen
         public static string[] swearWord2 = new string[] { "Face", "Fart", "Head", "Waffle", "Pancake", "Bandit", "Licker", "Sucker", "Twinkler", "Sprinkle", "Delinquent", "Toucher", "Feeler"
                                                             , "Master", "Slave", "Jockey", "Stingray"};
         public string swear;
-        //static Random rnd = new Random();
+        static Random rnd = new Random();
         public MainWindow()
         {
             InitializeComponent();
